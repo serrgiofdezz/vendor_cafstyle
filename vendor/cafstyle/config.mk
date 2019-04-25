@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
     WellbeingPrebuilt \
     Fonts
+    Papers
 
 ifeq ($(TARGET_APPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
