@@ -60,3 +60,10 @@ $(call inherit-product, vendor/cafstyle/config/fonts.mk)
 
 # Inherit from CarrrierSettings config
 $(call inherit-product, vendor/cafstyle/carriersettings/config.mk)
+
+# Include product overlays
+PRODUCT_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
+# Inherit from audio config
+$(call inherit-product, vendor/cafstyle/config/audio.mk)
