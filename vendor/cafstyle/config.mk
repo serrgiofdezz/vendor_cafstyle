@@ -61,3 +61,6 @@ endif
 
 # Files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
+
+# Inherit from fonts config
+$(call inherit-product, vendor/cafstyle/config/fonts.mk)
