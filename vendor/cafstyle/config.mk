@@ -39,8 +39,9 @@ else ifeq ($(TARGET_BOOT_MODE),disabled)
      PRODUCT_COPY_FILES += vendor/cafstyle/boot/disabled/CAF.mk
 else
     ifeq ($(TARGET_BOOT_MODE),)
-        $(error "CAFStyle: TARGET_BOOT_MODE is undefined, you must sepcify the mode on your chipset tree")
+        $(warning "CAFStyle: TARGET_BOOT_MODE is undefined, assuming enforcing mode")
     endif
+    PRODUCT_COPY_FILES += vendor/cafstyle/boot/enforcing/CAF.mk
 endif
 
 # Files
