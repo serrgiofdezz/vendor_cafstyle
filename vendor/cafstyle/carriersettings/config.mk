@@ -16,9 +16,7 @@
 PRODUCT_PACKAGES += \
     CarrierSettings
 
-#
 # Carrier configs by Google, parsed by CarrierSettings
-#
 # Carrier List
 PRODUCT_PACKAGES += \
     carrier_list.pb
