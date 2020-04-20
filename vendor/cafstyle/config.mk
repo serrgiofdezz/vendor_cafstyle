@@ -44,5 +44,14 @@ else
     PRODUCT_COPY_FILES += vendor/cafstyle/boot/enforcing/CAF.mk
 endif
 
+# Intel PVC
+ifeq ($(TARGET_APPS_ARCH),arm64)
+ifeq ($(TARGET_INTEL_PVC_SUPPORTED), true)
+PRODUCT_PACKAGES += \
+    IntelPVCService \
+		IntelHAL3Manager
+endif
+endif
+
 # Files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
