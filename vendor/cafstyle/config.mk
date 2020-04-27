@@ -13,17 +13,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := vendor/cafstyle
+
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    IntelBootPickerPrebuilt \
-    NexusLauncherPrebuilt \
-    WellbeingPrebuilt \
-    Fonts
+    SafetyHubPrebuilt \
+    NexusLauncherRelease \
+    Fonts \
     Papers
 
 ifeq ($(TARGET_APPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
-    MatchmakerPrebuilt
+    MatchmakerPrebuiltPixel4
 else ifeq ($(TARGET_APPS_ARCH),x86)
 PRODUCT_PACKAGES += \
     IntelLegacyPrebuilt
@@ -50,7 +51,7 @@ ifeq ($(TARGET_APPS_ARCH),arm64)
 ifeq ($(TARGET_INTEL_PVC_SUPPORTED), true)
 PRODUCT_PACKAGES += \
     IntelPVCService \
-		IntelHAL3Manager
+    IntelHALService3
 endif
 endif
 
