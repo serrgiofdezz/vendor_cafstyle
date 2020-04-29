@@ -19,8 +19,12 @@ LOCAL_PATH := vendor/cafstyle
 PRODUCT_PACKAGES += \
     SafetyHubPrebuilt \
     NexusLauncherRelease \
-    Fonts \
+    Fonts
+
+ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
+PRODUCT_PACKAGES += \
     Papers
+endif
 
 ifeq ($(TARGET_APPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
