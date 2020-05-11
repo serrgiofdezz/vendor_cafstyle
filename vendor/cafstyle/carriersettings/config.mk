@@ -90,7 +90,8 @@ PRODUCT_PACKAGES += \
 # Spain
 PRODUCT_PACKAGES += \
     orange_es.pb \
-    vodafone_es.pb
+    vodafone_es.pb \
+    bbjprojek_es.pb
 
 # Taiwan
 PRODUCT_PACKAGES += \
