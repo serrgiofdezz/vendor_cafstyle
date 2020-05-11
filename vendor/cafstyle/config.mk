@@ -26,10 +26,10 @@ PRODUCT_PACKAGES += \
     Papers
 endif
 
-ifeq ($(TARGET_APPS_ARCH),arm64)
+ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
     MatchmakerPrebuiltPixel4
-else ifeq ($(TARGET_APPS_ARCH),x86)
+else ifeq ($(TARGET_GAPPS_ARCH),x86)
 PRODUCT_PACKAGES += \
     IntelLegacyPrebuilt
 endif
@@ -51,7 +51,7 @@ else
 endif
 
 # Intel PVC
-ifeq ($(TARGET_APPS_ARCH),arm64)
+ifeq ($(TARGET_GAPPS_ARCH),arm64)
 ifeq ($(TARGET_INTEL_PVC_SUPPORTED), true)
 PRODUCT_PACKAGES += \
     IntelPVCService \
