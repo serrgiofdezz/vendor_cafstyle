@@ -21,7 +21,9 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4
+    MatchmakerPrebuiltPixel4 \
+    BubbleWall
+endif
 
 TARGET_MINIMAL_APPS ?= false
 
