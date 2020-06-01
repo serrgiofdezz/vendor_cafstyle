@@ -19,7 +19,8 @@ LOCAL_PATH := vendor/cafstyle
 PRODUCT_PACKAGES += \
     SafetyHubPrebuilt \
     NexusLauncherRelease \
-    Fonts
+    Fonts \
+    BubbleWall
 
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 PRODUCT_PACKAGES += \
@@ -28,7 +29,7 @@ endif
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4s
+    MatchmakerPrebuiltPixel4
 endif
 
 TARGET_MINIMAL_APPS ?= false
