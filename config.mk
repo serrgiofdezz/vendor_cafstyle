@@ -54,8 +54,7 @@ endif
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 ifeq ($(TARGET_INTEL_PVC_SUPPORTED), true)
 PRODUCT_PACKAGES += \
-    IntelPVCService \
-    IntelHALService3
+    IntelPVCService
 endif
 endif
 
