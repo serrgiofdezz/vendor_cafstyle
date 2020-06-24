@@ -36,20 +36,6 @@ endif
 
 TARGET_MINIMAL_APPS ?= false
 
-# Boot Mode
-ifeq ($(TARGET_BOOT_MODE),enforcing)
-     PRODUCT_COPY_FILES += vendor/cafstyle/boot/enforcing/CAF.mk
-else ifeq ($(TARGET_BOOT_MODE),permissive)
-     PRODUCT_COPY_FILES += vendor/cafstyle/boot/permissive/CAF.mk
-else ifeq ($(TARGET_BOOT_MODE),disabled)
-     PRODUCT_COPY_FILES += vendor/cafstyle/boot/disabled/CAF.mk
-else
-    ifeq ($(TARGET_BOOT_MODE),)
-        $(warning "CAFStyle: TARGET_BOOT_MODE is undefined, assuming enforcing mode")
-    endif
-    PRODUCT_COPY_FILES += vendor/cafstyle/boot/enforcing/CAF.mk
-endif
-
 # Intel PVC
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 ifeq ($(TARGET_INTEL_PVC_SUPPORTED), true)
@@ -60,7 +46,6 @@ endif
 
 # Files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
-
 
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
