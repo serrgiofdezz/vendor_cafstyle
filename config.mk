@@ -95,6 +95,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Inherit from lewdboratory config
+$(call inherit-product-if-exists, vendor/lewdboratory/packages.mk)
+
 # Inherit from fonts config
 $(call inherit-product, vendor/cafstyle/config/fonts.mk)
 
