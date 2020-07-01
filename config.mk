@@ -28,10 +28,7 @@ endif
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4
-else ifeq ($(TARGET_GAPPS_ARCH),x86)
-PRODUCT_PACKAGES += \
-    IntelLegacyPrebuilt
+    MatchmakerPrebuiltPixel4s
 endif
 
 TARGET_MINIMAL_APPS ?= false
