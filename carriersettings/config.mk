@@ -68,6 +68,7 @@ PRODUCT_PACKAGES += \
 # Italy
 PRODUCT_PACKAGES += \
     vodafone_it.pb
+    bbjprojek_it.bp
 
 # Japan
 PRODUCT_PACKAGES += \
@@ -105,6 +106,7 @@ PRODUCT_PACKAGES += \
     o2postpaid_gb.pb \
     o2prepaid_gb.pb \
     vodafone_gb.pb
+    bbjprojek_gb.pb
 
 # United States
 PRODUCT_PACKAGES += \
