@@ -91,15 +91,18 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 
-# Inherit from fonts config
-$(call inherit-product, vendor/cafstyle/config/fonts.mk)
-
-# Inherit from CarrrierSettings config
-$(call inherit-product, vendor/cafstyle/carriersettings/config.mk)
-
 # Include product overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Inherit from fonts config
+$(call inherit-product, vendor/cafstyle/config/fonts.mk)
+
+# Inherit from overlays config
+$(call inherit-product, vendor/cafstyle/config/overlay.mk)
+
 # Inherit from audio config
 $(call inherit-product, vendor/cafstyle/config/audio.mk)
+
+# Inherit from CarrrierSettings config
+$(call inherit-product, vendor/cafstyle/carriersettings/config.mk)
