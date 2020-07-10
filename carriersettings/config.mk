@@ -37,10 +37,27 @@ PRODUCT_PACKAGES += \
     fido_ca.pb \
     fizz_ca.pb \
     freedommobile_ca.pb \
+<<<<<<< HEAD:carriersettings/config.mk
+=======
+    h3_at.pb \
+    h3_gb.pb \
+    h3_se.pb \
+    idea_in.pb \
+    idmobile_gb.pb \
+    kddi_jp.pb \
+    kddimvno_jp.pb \
+>>>>>>> 3678252... hentai: Update carrier databases:config/common_telephony.mk
     koodo_ca.pb \
     luckymobile_ca.pb \
     pcmobilebell_ca.pb \
     rogers_ca.pb \
+<<<<<<< HEAD:carriersettings/config.mk
+=======
+    sfr_fr.pb \
+    shaw_ca.pb \
+    singtel_sg.pb \
+    softbank_jp.pb \
+>>>>>>> 3678252... hentai: Update carrier databases:config/common_telephony.mk
     solomobile_ca.pb \
     telus_ca.pb \
     videotron_ca.pb \
@@ -121,6 +138,24 @@ PRODUCT_PACKAGES += \
     fi_us.pb \
     sprint_us.pb \
     sprintwholesale_us.pb \
+<<<<<<< HEAD:carriersettings/config.mk
+=======
+    starhub_sg.pb \
+    swisscom_ch.pb \
+    swisscom_li.pb \
+    tdc_dk.pb \
+    tele2_se.pb \
+    telekom_de.pb \
+    telenor_dk.pb \
+    telenor_no.pb \
+    telia_no.pb \
+    telia_se.pb \
+    telstra_au.pb \
+    telus_ca.pb \
+    three_dk.pb \
+    tim_it.pb \
+    tmobile_nl.pb \
+>>>>>>> 3678252... hentai: Update carrier databases:config/common_telephony.mk
     tmobile_us.pb \
     uscc_us.pb \
     verizon_us.pb \

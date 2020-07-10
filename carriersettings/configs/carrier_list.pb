@@ -131,6 +131,9 @@ NRJ MOBILE
 
 20610
 20610
+#
+virginmedia_gb
+20620"28000000
 
 20620
 20620
@@ -152,6 +155,10 @@ NRJ MOBILE
 
 20801GID1=52
 20801"52
+
+
+rakuten_jp
+20801Rakuten
 
 	orange_fr
 20801
@@ -403,6 +410,9 @@ $
 ,
 22210SPN=POSTEMOBILE
 22210POSTEMOBILE
+
+homobile_it
+22210ho.
 
 vodafone_it
 22210
@@ -762,8 +772,8 @@ $
 
 telenor_dk
 23802
-
-23806
+
+three_dk
 23806
 
 tdc_dk
@@ -796,7 +806,7 @@ $
 240017
 240017
 
-24002
+h3_se
 24002
 *
 24004SPN=TELENOR SE
@@ -1226,6 +1236,15 @@ telekom_de
 
 fido_ca
 302370
+
+shaw_ca
+302490"53
+
+shaw_ca
+302490	302490400
+
+shaw_ca
+302490	302490500
 
 freedommobile_ca
 302490
@@ -2070,6 +2089,9 @@ $
 
 	google_us
 312580
+
+firstnetlab_us
+312670
 
 firstnet_us
 313100
@@ -4716,4 +4738,8 @@ $
 74810
 
 bics_be
+<<<<<<< HEAD:carriersettings/configs/carrier_list.pb
 90158ï¿½ï¿½ï¿½ï¿½0
+=======
+90158’šÜ“4
+>>>>>>> 3678252... hentai: Update carrier databases:CarrierSettings/configs/carrier_list.pb
