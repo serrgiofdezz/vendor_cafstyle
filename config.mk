@@ -17,7 +17,7 @@ LOCAL_PATH := vendor/cafstyle
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     SafetyHubPrebuilt \
-    NexusLauncherRelease
+    QuickstepRelease
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \

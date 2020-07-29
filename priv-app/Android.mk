@@ -29,7 +29,7 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := NexusLauncherRelease
+LOCAL_MODULE := QuickstepRelease
 LOCAL_OVERRIDES_PACKAGES := Launcher2 Launcher3 Launcher3QuickStep
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE)/$(LOCAL_MODULE).apk
