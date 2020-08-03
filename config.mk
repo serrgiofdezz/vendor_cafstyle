@@ -96,7 +96,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 # Inherit from lewdboratory config
+ifeq ($(TARGET_GAPPS_ARCH),arm64)
 $(call inherit-product-if-exists, vendor/lewdboratory/packages.mk)
+endif
 
 # Inherit from fonts config
 $(call inherit-product, vendor/cafstyle/config/fonts.mk)
