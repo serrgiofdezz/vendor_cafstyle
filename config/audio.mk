@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-PRODUCT_COPY_FILES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     vendor/cafstyle/audio/alarms/A_real_hoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/A_real_hoot.ogg \
     vendor/cafstyle/audio/alarms/Bright_morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Bright_morning.ogg \
     vendor/cafstyle/audio/alarms/Cuckoo_clock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Cuckoo_clock.ogg \
