@@ -34,8 +34,8 @@ PRODUCT_PACKAGES += \
     airtel_in.pb \
     att5g_us.pb \
     att_us.pb \
-		bbjprojek_es.bp \
-		bbjprojek_gb.bp \
+    bbjprojek_es.pb \
+    bbjprojek_gb.pb \
     bell_ca.pb \
     bluegrass_us.pb \
     boost_us.pb \
@@ -129,9 +129,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
-# Inherit from common config now.
+# Inherit from common config.
 $(call inherit-product, vendor/caf/config/common.mk)
-
-# Other countries
-PRODUCT_PACKAGES += \
-    others.pb
