@@ -110,4 +110,4 @@ $(call inherit-product, vendor/cafstyle/config/overlay.mk)
 $(call inherit-product, vendor/cafstyle/config/audio.mk)
 
 # Inherit from CarrrierSettings config
-$(call inherit-product, vendor/cafstyle/carriersettings/config.mk)
+$(call inherit-product, vendor/cafstyle/config/carriers.mk)
