@@ -23,12 +23,6 @@
 
 20404GID1=2801
 20404"2801
-*
-truphone_zz
-20404"547275554B3030656E
-*
-truphone_zz
-20404"54727555533030656E
 
 
 sasktel_ca
@@ -37,14 +31,10 @@ sasktel_ca
 
 verizon_us
 20404"BAE0000000000000
-<<<<<<< HEAD:carriersettings/configs/carrier_list.pb
 !
 truphone_zz
 20404	204043914
 
-=======
-
->>>>>>> 9a9076d... hentai: carrier: Update from RPB3.200720.005:CarrierSettings/configs/carrier_list.pb
 truphone_zz
 2040420404794
 
@@ -69,12 +59,6 @@ HOT MOBILE
 
 vodafone_nl
 20404
-*
-truphone_zz
-20408"547275554B3030656E
-*
-truphone_zz
-20408"54727555533030656E
 )
 20408IMSI=204080950
 20408	204080950
@@ -181,12 +165,6 @@ rakuten_jp
 
 	orange_fr
 20802
-*
-truphone_zz
-20809"547275554B3030656E
-*
-truphone_zz
-20809"54727555533030656E
 
 aliv_bs
 20809	208090021
@@ -265,17 +243,17 @@ altecom_es
 21402
 
 
+jazztel_es
+2140321403503
+
+
+jazztel_es
+2140321403504
+
+
 mobiler_es
 2140321403508
 
-bbjprojek_es
-21403
-
-21404
-21404
-
-bbjprojek_gb
-20601"28000000
 
 mobiler_es
 2140321403509
@@ -288,19 +266,12 @@ mobiler_es
 %
 21403IMSI=2140359
 214032140359
-
-
-jazztel_es
-21403JAZZTEL
 
 	orange_es
 21403
 
 21404
 21404
-
-inet_es
-21405	214050104
 "
 telecable_es
 21405	214050111
@@ -351,14 +322,14 @@ mobiler_es
 21419simyo
 
 
+bbjprojek_es
+21407bbjprojekES
+
 jazztel_es
 21421JAZZTEL
 
 truphone_zz
 21427
-
-inet_es
-21434
 "
 21601SPN=DJUICE
 21601DJUICE
@@ -413,6 +384,9 @@ jazztel_es
 
 22005
 22005
+%
+freedommobile_ca
+22201"FFFFFF00
 &
 22201SPN=IUSACELL
 22201IUSACELL
@@ -438,6 +412,9 @@ $
 homobile_it
 22210ho.
 
+bbjprojek_it
+22211
+
 vodafone_it
 22210
 
@@ -450,6 +427,9 @@ $
 
 windtre99_it
 22288"99
+%
+freedommobile_ca
+22288"FFFFFF00
 
 windtre88_it
 22288222880
@@ -621,6 +601,9 @@ $
 vodafone_gb
 23415
 
+bbjprojek_gb
+23416bbjprojekGB
+
 idmobile_gb
 23420"0305
 
@@ -771,9 +754,6 @@ LYCAMOBILE
 
 23458
 23458
-
-esn_gb
-23471
 
 23486
 23486
@@ -786,12 +766,6 @@ LYCAMOBILE
 
 h3_gb
 23594
-
-	gigsky_us
-23801"6E
-
-	gigsky_us
-23801"6F
 
 tdc_dk
 238012380101
@@ -854,22 +828,18 @@ $
 
 24005SPN=TELIA
 24005TELIA
-
-
-telenor_se
+
+24006
 24006
 
 sky_gb
 24007"0C
 
 	gigsky_us
-24007"6E
-
-	gigsky_us
 24007"6F
-
-gamma_gb
-24007	240075610
+
+gamma_gb
+2400724007561
 -
 24007IMSI=2400768XXXXXXXX
 240072400768
@@ -879,9 +849,8 @@ telenor_se
 
 tele2_se
 24007
-
-
-telenor_se
+
+24008
 24008
 
 com4_no
@@ -899,9 +868,6 @@ TELENOR SE
 
 24024
 24024
-
-google_5g_lab_tw
-24099
 .
 24201IMSI=24201700XXXXXXX
 2420124201700
@@ -1073,9 +1039,6 @@ telekom_de
 
 vodafone_de
 26202
-
-mvno_de
-2620326203483
 
 eplus_de
 26203
@@ -1103,15 +1066,9 @@ telekom_de
 
 vodafonelab_de
 26209
-
-mvno_de
-26220
 
 truphone_zz
 26242
-
-google_5g_lab_us
-262840
 
 26801
 26801
@@ -1476,6 +1433,9 @@ Fi Network
 
 sprintwholesale_us
 310120
+0
+310130SPN=CAROLINAWEST
+310130CAROLINAWEST
 
 310130
 310130
@@ -1649,9 +1609,6 @@ tmobile_us
 310380"50
 
 	gigsky_us
-310380"6E
-
-	gigsky_us
 310380"6F
 
 att_us
@@ -1767,12 +1724,6 @@ tmobile_us
 
 tmobile_us
 310660
-*
-truphone_zz
-31069"547275554B3030656E
-*
-truphone_zz
-31069"54727555533030656E
 .
 310750SPN=APPALACHIAN
 310750APPALACHIAN
@@ -2143,6 +2094,7 @@ $
 	google_us
 312580
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 firstnetlab_us
 312670
@@ -2157,6 +2109,11 @@ $
 312870
 >>>>>>> 9a9076d... hentai: carrier: Update from RPB3.200720.005:CarrierSettings/configs/carrier_list.pb
 >>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005
+=======
+
+firstnetlab_us
+312670
+>>>>>>> 01e6eb4... cafstyle: carrier: Refactor list
 
 firstnet_us
 313100
@@ -2172,9 +2129,6 @@ $
 
 firstnet_us
 313140
-
-spectrum_data_us
-313450
 
 spectrum_cbrs_us
 314020
@@ -3665,20 +3619,14 @@ rakuten_jp
 
 fet_tw
 46601
-
-fet_tw
-46602
-
-fet_tw
-46603
-
-apt_tw
+
+46605
 46605
 
 46688
 46688
-
-tstar_tw
+
+46689
 46689
 
 cht_tw
@@ -4333,8 +4281,8 @@ starhub_sg
 
 63801
 63801
-
-safaricom_ke
+
+63902
 63902
 
 63903
@@ -4612,14 +4560,14 @@ $
 
 72236
 72236
-
-tim_br
+
+72402
 72402
-
-tim_br
+
+72403
 72403
-
-tim_br
+
+72404
 72404
 
 72405
@@ -4812,6 +4760,7 @@ $
 74810
 
 bics_be
+<<<<<<< HEAD
 <<<<<<< HEAD:carriersettings/configs/carrier_list.pb
 90158����0
 =======
@@ -4822,3 +4771,6 @@ $
 90158����J
 >>>>>>> 9a9076d... hentai: carrier: Update from RPB3.200720.005:CarrierSettings/configs/carrier_list.pb
 >>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005
+=======
+90158��ܓ4
+>>>>>>> 01e6eb4... cafstyle: carrier: Refactor list
