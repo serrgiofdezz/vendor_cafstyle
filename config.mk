@@ -18,7 +18,7 @@ LOCAL_PATH := vendor/cafstyle
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     SafetyHubPrebuilt \
-    QuickstepRelease \
+    NexusLauncherRelease \
     Fonts \
     BubbleWall
 
