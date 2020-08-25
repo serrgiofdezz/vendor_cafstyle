@@ -57,11 +57,6 @@ PRODUCT_PACKAGES += \
     firstnetpacific_us.pb \
     fizz_ca.pb \
     freedommobile_ca.pb \
-<<<<<<< HEAD:carriersettings/config.mk
-<<<<<<< HEAD:carriersettings/config.mk
-=======
-=======
->>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005:config/common_telephony.mk
     h3_at.pb \
     h3_gb.pb \
     h3_se.pb \
@@ -69,36 +64,8 @@ PRODUCT_PACKAGES += \
     idmobile_gb.pb \
     kddi_jp.pb \
     kddimvno_jp.pb \
-<<<<<<< HEAD:carriersettings/config.mk
->>>>>>> 3678252... hentai: Update carrier databases:config/common_telephony.mk
     koodo_ca.pb \
     luckymobile_ca.pb \
-    pcmobilebell_ca.pb \
-    rogers_ca.pb \
-<<<<<<< HEAD:carriersettings/config.mk
-=======
-    sfr_fr.pb \
-    shaw_ca.pb \
-    singtel_sg.pb \
-    softbank_jp.pb \
->>>>>>> 3678252... hentai: Update carrier databases:config/common_telephony.mk
-    solomobile_ca.pb \
-    telus_ca.pb \
-    videotron_ca.pb \
-    virgin_ca.pb
-
-# France
-PRODUCT_PACKAGES += \
-    bouygues_fr.pb \
-    orange_fr.pb \
-    sfr_fr.pb
-
-# Germany
-PRODUCT_PACKAGES += \
-=======
-    koodo_ca.pb \
-    luckymobile_ca.pb \
->>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005:config/common_telephony.mk
     o2_de.pb \
     o2postpaid_gb.pb \
     o2prepaid_de.pb \
@@ -119,11 +86,6 @@ PRODUCT_PACKAGES += \
     sprint_us.pb \
     sprintprepaid_us.pb \
     sprintwholesale_us.pb \
-<<<<<<< HEAD:carriersettings/config.mk
-<<<<<<< HEAD:carriersettings/config.mk
-=======
-=======
->>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005:config/common_telephony.mk
     starhub_sg.pb \
     swisscom_ch.pb \
     swisscom_li.pb \
@@ -139,10 +101,6 @@ PRODUCT_PACKAGES += \
     three_dk.pb \
     tim_it.pb \
     tmobile_nl.pb \
-<<<<<<< HEAD:carriersettings/config.mk
->>>>>>> 3678252... hentai: Update carrier databases:config/common_telephony.mk
-=======
->>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005:config/common_telephony.mk
     tmobile_us.pb \
     tracfonetmo_us.pb \
     tracfoneverizon_us.pb \
@@ -166,10 +124,6 @@ PRODUCT_PACKAGES += \
 # Other countries
 PRODUCT_PACKAGES += \
     others.pb
-
-# Disable mobile data in roaming by default.
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.android.dataroaming=false
 
 # Inherit from common config.
 $(call inherit-product, vendor/caf/config/common.mk)
