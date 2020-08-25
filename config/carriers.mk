@@ -125,9 +125,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     others.pb
 
-# Disable mobile data in roaming by default.
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.android.dataroaming=false
-
 # Inherit from common config.
 $(call inherit-product, vendor/caf/config/common.mk)
