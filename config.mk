@@ -50,14 +50,6 @@ else
     PRODUCT_COPY_FILES += $(LOCAL_PATH)/bootanimation/bootanimation_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 endif
 
-# Intel PVC
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-ifeq ($(TARGET_INTEL_PVC_SUPPORTED), true)
-PRODUCT_PACKAGES += \
-    IntelPVCService
-endif
-endif
-
 # Files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
 
