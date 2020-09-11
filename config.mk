@@ -45,18 +45,6 @@ else
     PRODUCT_COPY_FILES += $(LOCAL_PATH)/bootanimation/bootanimation_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 endif
 
-# Enable Google Play system updates support
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/cafstyle/apex
-
-# Intel PVC
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-ifeq ($(TARGET_INTEL_PVC_SUPPORTED), true)
-PRODUCT_PACKAGES += \
-    IntelPVCService
-endif
-endif
-
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.baseline_setupwizard_enabled=true \
@@ -102,3 +90,6 @@ $(call inherit-product, vendor/cafstyle/config/audio.mk)
 
 # Inherit from CarrrierSettings config
 $(call inherit-product, vendor/cafstyle/config/carriers.mk)
+
+# Inherit from apex config
+$(call inherit-product, vendor/cafstyle/config/apex.mk)
