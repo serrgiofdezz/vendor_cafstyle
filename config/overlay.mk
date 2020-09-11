@@ -16,7 +16,8 @@
 
 # Accents
 PRODUCT_PACKAGES += \
-    AccentColorTealOverlay
+    AccentColorTealOverlay \
+    AccentColorH!OS
 
 # Icon Shapes
 PRODUCT_PACKAGES += \
