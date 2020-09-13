@@ -96,4 +96,4 @@ $(call inherit-product, vendor/cafstyle/config/audio.mk)
 $(call inherit-product, vendor/cafstyle/config/carriers.mk)
 
 # Inherit from apex config
-# $(call inherit-product, vendor/cafstyle/config/apex.mk)
+$(call inherit-product, vendor/cafstyle/config/apex.mk)
