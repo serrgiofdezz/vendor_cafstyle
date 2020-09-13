@@ -5,8 +5,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 # Inherit from fonts config
 $(call inherit-product, vendor/cafstyle/config/fonts.mk)
 
-# Inherit from overlays config
-$(call inherit-product, vendor/cafstyle/config/overlay.mk)
+# Inherit from rro_overlays config
+$(call inherit-product, vendor/cafstyle/config/rro_overlays.mk)
 
 # Inherit from audio config
 $(call inherit-product, vendor/cafstyle/config/audio.mk)
