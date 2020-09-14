@@ -126,4 +126,4 @@ PRODUCT_PACKAGES += \
     others.pb
 
 # Inherit from common config.
-$(call inherit-product, vendor/caf/config/common.mk)
+$(call inherit-product, vendor/cafstyle/config/common.mk)
