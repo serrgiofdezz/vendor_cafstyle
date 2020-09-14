@@ -23,6 +23,9 @@ $(call inherit-product, vendor/cafstyle/config/versioning.mk)
 # Customization
 $(call inherit-product, vendor/customization/config.mk)
 
+# Inherit from GMS product config
+$(call inherit-product, vendor/gms/gms_full.mk)
+
 # Inherit from lewdboratory config
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 $(call inherit-product-if-exists, vendor/lewdboratory/packages.mk)
