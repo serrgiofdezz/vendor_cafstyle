@@ -30,19 +30,12 @@ endif
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    SafetyHubPrebuilt \
-    NexusLauncherRelease \
     Fonts \
     BubbleWall
 
 ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 PRODUCT_PACKAGES += \
     Papers
-endif
-
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4
 endif
 
 TARGET_MINIMAL_APPS ?= false
