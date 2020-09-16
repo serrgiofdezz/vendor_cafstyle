@@ -30,8 +30,8 @@ $(call inherit-product, vendor/gapps/config.mk
 $(call inherit-product, vendor/cafstyle/bootanimation.mk
 
 # Inherit from lewdboratory config
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-$(call inherit-product-if-exists, vendor/lewdboratory/packages.mk)
+ifneq ($(filter sailfish marlin walleye taimen blueline crosshatch bonito sargo flame coral sunfish, $(TARGET_DEVICE)),)
+$(call inherit-product, vendor/lewdboratory/packages.mk)
 endif
 
 # Prebuilt Packages
