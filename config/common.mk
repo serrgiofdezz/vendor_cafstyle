@@ -17,11 +17,17 @@ $(call inherit-product, vendor/cafstyle/config/carriers.mk)
 # Inherit from apex config
 $(call inherit-product, vendor/cafstyle/config/apex.mk)
 
-# Versioning
+# Inherit from branding config
 $(call inherit-product, vendor/cafstyle/config/versioning.mk)
 
-# Customization
+# Inherit from Google customization config
 $(call inherit-product, vendor/customization/config.mk)
+
+# Inherit from  Gapps config
+$(call inherit-product, vendor/gapps/config.mk
+
+# Inherit from bootanimation config
+$(call inherit-product, vendor/cafstyle/bootanimation.mk
 
 # Inherit from lewdboratory config
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
