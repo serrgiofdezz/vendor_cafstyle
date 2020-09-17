@@ -29,25 +29,12 @@ $(call inherit-product, vendor/customization/config.mk)
 # Inherit from GMS product config
 $(call inherit-product, vendor/gms/gms_full.mk)
 
-# Inherit from lewdboratory config
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-$(call inherit-product-if-exists, vendor/lewdboratory/packages.mk)
-endif
-
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     Fonts \
     BubbleWall
 
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
-PRODUCT_PACKAGES += \
-    Papers
-endif
-
 TARGET_MINIMAL_APPS ?= false
-
-# Files
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
 
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -105,14 +92,6 @@ ifeq ($(TARGET_USES_AOSP_RECOVERY),true)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.recovery_update=true
 endif
-
-# Enforce privapp-permissions whitelist
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=log
-
-# Power whitelist
-PRODUCT_COPY_FILES += \
-    vendor/cafstyle/config/permissions/custom-power-whitelist.xml:system/etc/sysconfig/custom-power-whitelist.xml
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
