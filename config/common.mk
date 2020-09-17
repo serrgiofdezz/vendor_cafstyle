@@ -17,10 +17,13 @@ $(call inherit-product, vendor/cafstyle/config/carriers.mk)
 # Inherit from apex config
 $(call inherit-product, vendor/cafstyle/config/apex.mk)
 
-# Versioning
+# Inherit from branding config
 $(call inherit-product, vendor/cafstyle/config/versioning.mk)
 
-# Customization
+# Inherit from bootanimation config
+$(call inherit-product, vendor/cafstyle/config/bootanimation.mk)
+
+# Inherit from Google customization config
 $(call inherit-product, vendor/customization/config.mk)
 
 # Inherit from GMS product config
