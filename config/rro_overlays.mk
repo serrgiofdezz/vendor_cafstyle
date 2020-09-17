@@ -17,8 +17,7 @@
 # Overlays
 PRODUCT_PACKAGES += \
     AccentColorTealOverlay \
-    AccentColorH!OS \
-    AccentColorBlueOverlay \
+    AccentColorH!OSOVerlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontGoogleSansOverlayOverlay \
