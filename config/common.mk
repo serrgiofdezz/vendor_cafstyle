@@ -68,7 +68,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Include product overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    vendor/cafstyle/overlay
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.debug.alloc=0 \
