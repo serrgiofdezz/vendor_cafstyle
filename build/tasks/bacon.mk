@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2020 The BBJProjeK Team
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,16 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_IS_RUNTIME_RESOURCE_OVERLAY := true
+CUSTOM_TARGET_PACKAGE := $(PRODUCT_OUT)/$(CUSTOM_VERSION).zip
 
-ifneq ($(LOCAL_SRC_FILES),)
-  $(error runtime resource overlay package should not contain sources)
-endif
+MD5 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/md5sum
 
-ifeq ($(LOCAL_RRO_THEME),)
-  $(error runtime resource overlay package must define \'LOCAL_RRO_THEME\')
-else
-  LOCAL_MODULE_PATH := $(TARGET_OUT)/app/$(LOCAL_RRO_THEME)
-endif
-
-include $(BUILD_SYSTEM)/package.mk
+.PHONY: bacon
+bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
+	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(CUSTOM_TARGET_PACKAGE)
+	$(hide) $(MD5) $(CUSTOM_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(CUSTOM_TARGET_PACKAGE).md5sum
+	@echo "Package Complete: $(CUSTOM_TARGET_PACKAGE)" >&
