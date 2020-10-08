@@ -412,9 +412,6 @@ $
 homobile_it
 22210ho.
 
-bbjprojek_it
-22211
-
 vodafone_it
 22210
 
@@ -1504,8 +1501,8 @@ tmobile_us
 !
 310260GID1=2801
 310260"2801
-%
-consumercellular_us
+(
+consumercellulartmo_us
 310260"2AC9
 !
 redpockettmo_us
@@ -1539,8 +1536,8 @@ tmobile_us
 
 tmobile_us
 310270
-
-attmvnos_us
+(
+consumercellularatt_us
 310280"2AC9
 
 attmvnos_us
@@ -1616,8 +1613,8 @@ tmobile_us
 
 310390
 310390
-
-attmvnos_us
+(
+consumercellularatt_us
 310410"2AC9
 
 attmvnos_us
@@ -2093,27 +2090,9 @@ $
 
 	google_us
 312580
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 firstnetlab_us
 312670
-=======
-<<<<<<< HEAD:carriersettings/configs/carrier_list.pb
-=======
-
-firstnetlab_us
-312670
-
-	gigsky_us
-312870
->>>>>>> 9a9076d... hentai: carrier: Update from RPB3.200720.005:CarrierSettings/configs/carrier_list.pb
->>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005
-=======
-
-firstnetlab_us
-312670
->>>>>>> 01e6eb4... cafstyle: carrier: Refactor list
 
 firstnet_us
 313100
@@ -3156,9 +3135,6 @@ OPENMOBILE
 
 41007
 41007
-!
-410310GID1=2AC9
-410310"2AC9
 
 41201
 41201
@@ -3439,14 +3415,11 @@ rakuten_jp
 
 kddi_jp
 44050
-
-kddimvno_jp
-440514405130
-
-kddimvno_jp
-440514405131
-
-kddi_jp
+
+kddi_jp
+44051"10
+
+kddimvno_jp
 44051
 
 44052
@@ -3461,16 +3434,20 @@ rakuten_jp
 45000
 45000
 
-45002
+kt_kr
 45002
+
+kt_kr
+45004
 
 45005
 45005
-
-45006
+
+
+lguplus_kr
 45006
 
-45008
+kt_kr
 45008
 
 45011
@@ -3712,19 +3689,18 @@ telstra_au
 50507
 50507
 
-50511
-50511
-
 50512
 50512
 
 truphone_zz
 50538
-
-50571
+
+
+telstra_au
 50571
-
-50572
+
+
+telstra_au
 50572
 
 50588
@@ -4760,17 +4736,4 @@ $
 74810
 
 bics_be
-<<<<<<< HEAD
-<<<<<<< HEAD:carriersettings/configs/carrier_list.pb
-90158ÔøΩÔøΩÔøΩÔøΩ0
-=======
-<<<<<<< HEAD
-90158íö‹ì4
->>>>>>> 3678252... hentai: Update carrier databases:CarrierSettings/configs/carrier_list.pb
-=======
-90158ÔøΩÔøΩÔøΩÔøΩJ
->>>>>>> 9a9076d... hentai: carrier: Update from RPB3.200720.005:CarrierSettings/configs/carrier_list.pb
->>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005
-=======
-90158ÔøΩÔøΩ‹ì4
->>>>>>> 01e6eb4... cafstyle: carrier: Refactor list
+90158ÔøΩÔøΩ ùN

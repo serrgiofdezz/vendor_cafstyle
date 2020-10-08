@@ -1,17 +1,5 @@
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-h3_atӛܓ4<:
-=======
-<<<<<<< HEAD:carriersettings/configs/h3_at.pb
-h3_atӇ�0<:
-=======
-h3_atӓ��J<:
->>>>>>> 9a9076d... hentai: carrier: Update from RPB3.200720.005:CarrierSettings/configs/h3_at.pb
->>>>>>> b32e4cd... cafstyle: carrier: Update from RPB3.200720.005
-=======
-h3_atӛܓ4<:
->>>>>>> 01e6eb4... cafstyle: carrier: Refactor list
+h3_atӧʝN<:
 Planet3drei.atZhttp://mmscb213.94.78.133j8799"Y3
 !non_roaming_operator_string_array2
 23203
