@@ -1,5 +1,5 @@
 
-PRODUCT_BRAND ?= BrainRepo
+PRODUCT_BRAND ?= ElementOS
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Inherit from fonts config

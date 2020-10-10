@@ -28,4 +28,4 @@ PRODUCT_PACKAGES += \
     IconPackFilledPixelThemePickerOverlay \
     IconPackRoundedPixelLauncherOverlay \
     IconPackRoundedPixelThemePickerOverlay \
-    PixelSetupWizardOverlayBrainRepo
+    PixelSetupWizardOverlayElementOS

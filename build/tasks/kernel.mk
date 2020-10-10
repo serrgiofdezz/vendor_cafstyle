@@ -1,5 +1,3 @@
-#           (C) 2017 The BrainRepo Project
-#           (C) 2019 The Code Aurora Forum Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

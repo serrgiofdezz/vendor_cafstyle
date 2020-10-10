@@ -16,7 +16,7 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.android.pixel.setupwizard.brainrepo"
+    package="com.google.android.pixel.setupwizard.elementos"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:isStatic="true" android:priority="190" android:targetPackage="com.google.android.pixel.setupwizard"/>
