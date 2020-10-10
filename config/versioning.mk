@@ -33,5 +33,5 @@ CUSTOM_VERSION_PROP := 11
 CUSTOM_PLATFORM_VERSION := eleven
 
 CUSTOM_PROPERTIES := \
-    ro.build.version.custom=$(CUSTOM_VERSION)
+    ro.build.version.custom=$(CUSTOM_VERSION) \
     ro.build.version.codename=$(CUSTOM_CODENAME)
