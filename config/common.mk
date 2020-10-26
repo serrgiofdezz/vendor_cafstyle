@@ -29,6 +29,9 @@ $(call inherit-product, vendor/customization/config.mk)
 # Inherit from GMS product config
 $(call inherit-product, vendor/gms/gms_full.mk)
 
+# Inherit from sepolicy config
+$(call inherit-product, vendor/cafstyle/config/sepolicy.mk)
+
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     Fonts \

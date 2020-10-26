@@ -14,18 +14,5 @@
 # limitations under the License.
 #
 
-# Overlays
-PRODUCT_PACKAGES += \
-    AccentColorTealOverlay \
-    AccentColorH!OSOVerlay \
-    FontArbutusSourceOverlay \
-    FontArvoLatoOverlay \
-    FontGoogleSansOverlayOverlay \
-    FontRubikRubikOverlay \
-    IconPackCircularPixelLauncherOverlay \
-    IconPackCircularPixelThemePickerOverlay \
-    IconPackFilledPixelLauncherOverlay \
-    IconPackFilledPixelThemePickerOverlay \
-    IconPackRoundedPixelLauncherOverlay \
-    IconPackRoundedPixelThemePickerOverlay \
-    PixelSetupWizardOverlayElementOS
+BOARD_SEPOLICY_DIRS += \
+	vendor/cafstyle/sepolicy/vendor
