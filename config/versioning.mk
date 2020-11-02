@@ -15,7 +15,7 @@
 #
 
 # Versioning System
-CUSTOM_VERSION = 6.1
+CUSTOM_VERSION = 6.2
 CUSTOM_CODENAME := vanadium
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
