@@ -83,6 +83,11 @@ endif
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.iorapd.enable=true
 
+# Disable touch video heatmap to reduce latency, motion jitter, and CPU usage
+# on supported devices with Deep Press input classifier HALs and models
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.input.video_enabled=false
+
 # Inherit from apex config
 $(call inherit-product, vendor/cafstyle/config/apex.mk)
 
