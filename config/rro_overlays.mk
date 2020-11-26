@@ -29,3 +29,13 @@ PRODUCT_PACKAGES += \
     IconPackRoundedPixelLauncherOverlay \
     IconPackRoundedPixelThemePickerOverlay \
     PixelSetupWizardOverlayElementOS
+
+# Google Overlays
+PRODUCT_PACKAGES += \
+    GoogleConfigOverlay \
+    GooglePermissionControllerOverlay \
+		GoogleWebViewOverlay \
+    PixelConfigOverlay2018 \
+    PixelConfigOverlay2019 \
+    PixelConfigOverlay2019Midyear \
+    PixelConfigOverlayCommon
