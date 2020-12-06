@@ -32,13 +32,6 @@ $(call inherit-product, vendor/gms/gms_full.mk)
 # Inherit from sepolicy config
 $(call inherit-product, vendor/cafstyle/config/sepolicy.mk)
 
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    Fonts \
-    BubbleWall
-
-TARGET_MINIMAL_APPS ?= false
-
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.baseline_setupwizard_enabled=true \
