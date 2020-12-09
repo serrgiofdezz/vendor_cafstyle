@@ -40,4 +40,10 @@
 
     <!--Whether help links are defined. -->
     <bool name="config_has_help">true</bool>
+
+    <!-- Whether nfc detection point preview image is available or not. -->
+    <bool name="config_nfc_detection_point">true</bool>
+
+    <!-- Whether to show a preference item for regulatory information in About phone -->
+    <bool name="config_show_regulatory_info">false</bool>
 </resources>
