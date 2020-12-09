@@ -32,8 +32,6 @@ PRODUCT_PACKAGES += \
 
 # Google Overlays
 PRODUCT_PACKAGES += \
-    GoogleConfigOverlay \
     PixelConfigOverlay2018 \
     PixelConfigOverlay2019 \
-    PixelConfigOverlay2019Midyear \
-    PixelConfigOverlayCommon
+    PixelConfigOverlay2019Midyear
