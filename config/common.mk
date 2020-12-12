@@ -34,6 +34,9 @@ $(call inherit-product, vendor/cafstyle/config/sepolicy.mk)
 # Inherit from googlab config
 $(call inherit-product-if-exists, vendor/googlab/packages.mk)
 
+# Inherit from textclassifier config
+$(call inherit-product, vendor/cafstyle/config/textclassifier.mk)
+
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.baseline_setupwizard_enabled=true \
