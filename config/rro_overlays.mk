@@ -47,4 +47,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PixelConfigOverlay2018 \
     PixelConfigOverlay2019 \
-    PixelConfigOverlay2019Midyear
+    PixelConfigOverlay2019Midyear \
+    PixelTetheringOverlay
