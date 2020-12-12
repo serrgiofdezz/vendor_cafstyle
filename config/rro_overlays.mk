@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     AccentColorTealOverlay \
     AccentcolorStarbucksOverlay \
     ElementOSWallsStubOverlay \
-    FilesOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontKaiOverlay \
@@ -45,6 +44,8 @@ PRODUCT_PACKAGES += \
 
 # Google Overlays
 PRODUCT_PACKAGES += \
+    CellBroadcastServiceOverlay \
+		FilesOverlay \
     PixelConfigOverlay2018 \
     PixelConfigOverlay2019 \
     PixelConfigOverlay2019Midyear \
