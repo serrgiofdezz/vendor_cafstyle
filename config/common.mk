@@ -31,6 +31,9 @@ $(call inherit-product, vendor/gms/gms_full.mk)
 # Inherit from sepolicy config
 $(call inherit-product, vendor/cafstyle/config/sepolicy.mk)
 
+# Inherit from googlab config
+$(call inherit-product-if-exists, vendor/googlab/packages.mk)
+
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.baseline_setupwizard_enabled=true \
