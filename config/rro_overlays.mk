@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     AccentColorTealOverlay \
     AccentcolorStarbucksOverlay \
     ElementOSWallsStubOverlay \
+    FilesOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontKaiOverlay \
