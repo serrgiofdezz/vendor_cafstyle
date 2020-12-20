@@ -19,6 +19,8 @@ PRODUCT_PACKAGES += \
     AccentColorTealOverlay \
     AccentColorAppleBlueOverlay \
     AccentColorH!OSOVerlay \
+    AccentColorSpotifyOverlay \
+    AccentcolorStarbucksOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontGoogleSansOverlayOverlay \
