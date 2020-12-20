@@ -15,8 +15,8 @@
 //
 
 runtime_resource_overlay {
-    name: "AccentColorH!OSOverlay",
-    theme: "AccentColorH!OS",
+    name: "AccentColorHentaiOSOverlay",
+    theme: "AccentColorHentaiOS",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true

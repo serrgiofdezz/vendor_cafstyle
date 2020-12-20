@@ -16,7 +16,11 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Teal accent color name application label. [CHAR LIMIT=50] -->
-    <string name="accent_color_h!os_overlay" translatable="false">teal</string>
-</resources>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.theme.color.hentaios"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <overlay android:targetPackage="android" android:category="android.theme.customization.accent_color" android:priority="1"/>
+
+    <application android:label="HentaiOS" android:hasCode="false"/>
+</manifest>
