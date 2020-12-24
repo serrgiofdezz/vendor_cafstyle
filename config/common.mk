@@ -37,10 +37,6 @@ $(call inherit-product-if-exists, vendor/googlab/packages.mk)
 # Inherit from textclassifier config
 $(call inherit-product, vendor/cafstyle/config/textclassifier.mk)
 
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    ElementOSWallpapersStubPrebuilt
-
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.baseline_setupwizard_enabled=true \
