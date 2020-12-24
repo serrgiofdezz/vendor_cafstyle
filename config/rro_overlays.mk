@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontKaiOverlay \
+		FontManropeOverlay \
     FontRubikRubikOverlay \
     FontSamOverlay \
     FontVictorOverlay \
