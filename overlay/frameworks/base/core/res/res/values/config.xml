@@ -140,10 +140,6 @@
          have to be explicitly listed here, however it must have a signature
          that matches the signature of at least one package on this list.
          -->
-    <string-array name="config_locationProviderPackageNames">
-        <item>com.google.android.gms</item>
-        <item>com.android.location.fused</item>
-    </string-array>
 
     <!-- Apps that are authorized to access shared accounts, overridden by product overlays -->
     <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
@@ -388,14 +384,6 @@
          -->
     <bool name="config_enableGeocoderOverlay">true</bool>
 
-    <!-- Whether to enable geofence overlay which allows geofence to be replaced
-         by an app at run-time. When disabled, only the
-         config_geofenceProviderPackageName package will be searched for
-         geofence implementation, otherwise any system package is eligible. Anyone who
-         wants to disable the overlay mechanism can set it to false.
-         -->
-    <bool name="config_enableNetworkLocationOverlay">true</bool>
-
     <!-- When true, enables the whitelisted app to handle bug reports from power menu short press. -->
     <bool name="config_bugReportHandlerEnabled">true</bool>
 
@@ -421,11 +409,6 @@
     <!-- Package name for the device provisioning package. -->
     <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
 
-    <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
-         handle wallpaper cropping.
-    -->
-    <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
-
     <!-- Package name(s) containing location provider support. These packages will be auto-granted
          several permissions by the system, and should be system packages. -->
     <string-array name="config_locationProviderPackageNames" translatable="false">
@@ -441,9 +424,6 @@
 
     <!-- Allows setting custom fontFeatureSettings on specific text. -->
     <string name="config_headlineFontFeatureSettings">ss03</string>
-
-    <!-- Whether safe headphone volume is enabled or not (country specific). -->
-    <bool name="config_safe_media_volume_enabled">false</bool>
 
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
          specified -->
@@ -513,10 +493,6 @@
          device.
      -->
     <string name="config_retailDemoPackageSignature">6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80</string>
-
-    <!-- Component name that accepts ACTION_SEND intents for nearby (proximity-based) sharing.
-         Used by ChooserActivity. -->
-    <string name="config_defaultNearbySharingComponent">com.google.android.gms/com.google.android.gms.nearby.sharing.ShareSheetActivity</string>
 
     <!-- Component name that accepts ACTION_SEND intents for nearby (proximity-based) sharing.
          Used by ChooserActivity. -->
