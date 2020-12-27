@@ -24,32 +24,10 @@ $(call inherit-product, vendor/cafstyle/config/versioning.mk)
 $(call inherit-product, vendor/customization/config.mk)
 
 # Inherit from  Gapps config
-$(call inherit-product, vendor/gapps/config.mk
+$(call inherit-product, vendor/gapps/config.mk)
 
 # Inherit from bootanimation config
-$(call inherit-product, vendor/cafstyle/bootanimation.mk
-
-# Inherit from lewdboratory config
-ifneq ($(filter sailfish marlin walleye taimen blueline crosshatch bonito sargo flame coral sunfish, $(TARGET_DEVICE)),)
-$(call inherit-product, vendor/lewdboratory/packages.mk)
-endif
-
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    SafetyHubPrebuilt \
-    NexusLauncherRelease \
-    Fonts \
-    BubbleWall
-
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
-PRODUCT_PACKAGES += \
-    Papers
-endif
-
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4
-endif
+$(call inherit-product, vendor/cafstyle/bootanimation.mk)
 
 TARGET_MINIMAL_APPS ?= false
 
