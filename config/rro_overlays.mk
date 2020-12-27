@@ -23,8 +23,10 @@ PRODUCT_PACKAGES += \
     ElementOSWallsStubOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
-    FontGoogleSansOverlayOverlay \
+    FontKaiOverlay \
     FontRubikRubikOverlay \
+    FontSamOverlay \
+    FontVictorOverlay \
     IconPackCircularPixelLauncherOverlay \
     IconPackCircularPixelThemePickerOverlay \
     IconPackFilledPixelLauncherOverlay \
