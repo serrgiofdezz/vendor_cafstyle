@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <!--  HentaiOS Exclusives go here  -->
+    <!-- Spanish Translations -->
+    <string name="additional_title">Fondos de HentaiOS</string>
+
+    <!--  Drawables  -->
+    <string name="additional_light_01_title">HentaiOS Azul Claro</string>
+    <string name="additional_light_02_title">HentaiOS Vere Azulado Claro</string>
+    <string name="additional_light_03_title">HentaiOS Azul Claro a Blanco</string>
+    <string name="additional_light_04_title">HentaiOS Rojo Claro a Blanco</string>
+    <string name="additional_light_05_title">HentaiOS Azul-Rojo</string>
+    <string name="additional_black_01_title">HentaiOS Azul AMOLED </string>
+    <string name="additional_black_02_title">HentaiOS AMOLED Azul 2</string>
+    <string name="additional_black_03_title">HentaiOS AMOLED Rojo 2</string>
+    <string name="additional_black_04_title">HentaiOS AMOLED Verde Azulado</string>
+    <string name="additional_black_05_title">HentaiOS AMOLED Mono</string>
+    <string name="additional_black_06_title">HentaiOS AMOLED Rojo a negro</string>
+    <string name="additional_black_07_title">HentaiOS AMOLED Azul a negro</string>
+    <string name="additional_black_08_title">HentaiOS AMOLED Verde Azulado a negro</string>
+    <string name="additional_black_09_title">HentaiOS AMOLED Rojo-Azul</string>
+    <string name="additional_black_10_title">HentaiOS AMOLED Azul-Verde Azulado</string>
+    <string name="additional_dark_01_title">HentaiOS Dark Rojo</string>
+    <string name="additional_dark_02_title">HentaiOS Dark Azul</string>
+    <string name="additional_dark_03_title">HentaiOS Dark Azul a negro</string>
+    <string name="additional_dark_04_title">HentaiOS Dark Verde Azulado a negro</string>
+    <string name="additional_xmas_01_title">HentaiOS modo Navidad</string>
+
+</resources>

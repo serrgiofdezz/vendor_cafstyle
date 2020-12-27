@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     AccentColorHentaiOSOVerlay \
     AccentColorTealOverlay \
     AccentcolorStarbucksOverlay \
+    ElementOSWallsStubOverlay \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontGoogleSansOverlayOverlay \
