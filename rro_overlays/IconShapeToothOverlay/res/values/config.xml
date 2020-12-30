@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2020, The BBJProjeK Team
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Specifies the path that is used by AdaptiveIconDrawable class to crop launcher icons. -->
+    <string name="config_icon_mask" translatable="false">"M10.6392 62.3633C7.89539 53.9835 3.75724 54.2202 1.32832 47.2133C-2.27008 36.8451 1.64318 21.3638 10.6392 15.4459C19.4103 9.62265 25.3926 18.0498 41.0906 13.8362C53.0103 10.6169 52.9203 4.88831 65.5147 1.81098C70.9123 0.485364 84.1364 -2.73399 92.5927 4.93565C101.139 12.7 100.104 27.4238 99.7895 32.2528C99.0248 43.0471 95.1565 44.3254 95.5614 54.2202C96.0112 64.8725 100.599 66.4348 99.6545 74.3885C98.665 82.7209 92.3228 92.1423 84.5862 93.7046C74.6907 95.6457 71.3621 83.0997 59.8922 83.005C45.9485 82.9103 41.5404 101.469 29.1709 99.9066C21.3894 98.9597 14.6874 90.5326 12.3934 83.4311C9.69459 75.288 13.6978 71.6899 10.6392 62.3633Z"</string>
+    <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
+    <bool name="config_useRoundIcon">false</bool>
+    <!-- Corner radius of system dialogs -->
+    <dimen name="config_dialogCornerRadius">8dp</dimen>
+    <!-- Corner radius for bottom sheet system dialogs -->
+    <dimen name="config_bottomDialogCornerRadius">16dp</dimen>
+
+</resources>

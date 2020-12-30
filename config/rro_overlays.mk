@@ -33,6 +33,12 @@ PRODUCT_PACKAGES += \
     IconPackFilledPixelThemePickerOverlay \
     IconPackRoundedPixelLauncherOverlay \
     IconPackRoundedPixelThemePickerOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeEtruscanOverlay \
+    IconShapeHealthOverlay \
+    IconShapeSandClockOverlay \
+    IconShapeStarOverlay \
+    IconShapeToothOverlay \
     PixelSetupWizardOverlayElementOS
 
 # Google Overlays
