@@ -28,6 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/cafstyle/audio/alarms/Spokes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Spokes.ogg \
     vendor/cafstyle/audio/alarms/Sunshower.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Sunshower.ogg \
     vendor/cafstyle/audio/notifications/Beginning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Beginning.ogg \
+    vendor/cafstyle/audio/notifications/Better_times1.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Better_times1.ogg \
+    vendor/cafstyle/audio/notifications/Better_times2.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Better_times2.ogg \
     vendor/cafstyle/audio/notifications/Coconuts.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Coconuts.ogg \
     vendor/cafstyle/audio/notifications/Duet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Duet.ogg \
     vendor/cafstyle/audio/notifications/End_note.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/End_note.ogg \
@@ -45,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/cafstyle/audio/ringtones/Copycat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Copycat.ogg \
     vendor/cafstyle/audio/ringtones/Crackle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Crackle.ogg \
     vendor/cafstyle/audio/ringtones/Flutterby.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Flutterby.ogg \
+    vendor/cafstyle/audio/ringtones/Good_times.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Good_times.ogg \
     vendor/cafstyle/audio/ringtones/Hotline.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Hotline.ogg \
     vendor/cafstyle/audio/ringtones/Leaps_and_bounds.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Leaps_and_bounds.ogg \
     vendor/cafstyle/audio/ringtones/Lollipop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lollipop.ogg \
@@ -85,6 +88,6 @@ PRODUCT_COPY_FILES += \
 
 # Change default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=The_big_adventure.ogg \
-    ro.config.notification_sound=Popcorn.ogg \
+    ro.config.ringtone=Good_times.ogg \
+    ro.config.notification_sound=Better_times1.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
