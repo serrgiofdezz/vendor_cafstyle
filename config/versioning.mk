@@ -15,8 +15,8 @@
 #
 
 # Versioning System
-CUSTOM_VERSION = 6.4
-CUSTOM_CODENAME := vanadium
+CUSTOM_VERSION = 7
+CUSTOM_CODENAME := Arsenic
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
