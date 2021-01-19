@@ -72,6 +72,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/cafstyle/overlay
 
+# Enable blurs based on targets
+ifeq ($(TARGET_SUPPORTS_BLUR),true)
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.surface_flinger.supports_background_blur=1 \
+    ro.sf.blurs_are_expensive=1
+endif
+
 # Inherit from apex config
 $(call inherit-product, vendor/cafstyle/config/apex.mk)
 
