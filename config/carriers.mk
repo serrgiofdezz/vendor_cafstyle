@@ -138,6 +138,3 @@ PRODUCT_PACKAGES += \
 # Other countries
 PRODUCT_PACKAGES += \
     others.pb
-
-# Inherit from common config.
-$(call inherit-product, vendor/caf/config/common.mk)
