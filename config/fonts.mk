@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     Lato-Medium.ttf \
     Lato-Regular.ttf
 
+# Lustria family
+PRODUCT_PACKAGES += \
+    Lustria-Regular.ttf
+
 # rubik family
 PRODUCT_PACKAGES += \
     Rubik-BoldItalic.ttf \
@@ -73,11 +77,33 @@ PRODUCT_PACKAGES += \
     ZillaSlab-SemiBoldItalic.ttf \
     ZillaSlab-SemiBold.ttf
 
+# Karla family
+PRODUCT_PACKAGES += \
+    Karla-Regular.ttf
+
+# Fraunces family
+PRODUCT_PACKAGES += \
+    Fraunces-Regular.ttf \
+    Fraunces-SemiBold.ttf
+
+# BigShouldersText family
+PRODUCT_PACKAGES += \
+    BigShouldersText-Bold.ttf \
+    BigShouldersText-ExtraBold.ttf
+
+# Barlow family
+PRODUCT_PACKAGES += \
+    Barlow-Bold.ttf \
+    Barlow-Medium.ttf
+
 # Customization overlays
 PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
-    FontRubikRubikOverlay
+    FontKaiOverlay \
+    FontRubikRubikOverlay \
+    FontSamOverlay \
+    FontVictorOverlay
 
 PRODUCT_COPY_FILES += \
-    vendor/cafstyle/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+    vendor/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
