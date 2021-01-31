@@ -106,4 +106,4 @@ PRODUCT_PACKAGES += \
     FontVictorOverlay
 
 PRODUCT_COPY_FILES += \
-    vendor/cafstyle/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+    vendor/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
