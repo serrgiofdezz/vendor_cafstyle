@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontKaiOverlay \
-		FontManropeOverlay \
+    FontManropeOverlay \
     FontRubikRubikOverlay \
     FontSamOverlay \
     FontVictorOverlay \
@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += \
 # Google Overlays
 PRODUCT_PACKAGES += \
     CellBroadcastServiceOverlay \
-		FilesOverlay \
+    FilesOverlay \
     PixelConfigOverlay2018 \
     PixelConfigOverlay2019 \
     PixelConfigOverlay2019Midyear \
