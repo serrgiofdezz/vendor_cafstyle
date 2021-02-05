@@ -22,4 +22,8 @@
     <item target="bool/config_show_regulatory_info" value="@bool/config_show_regulatory_info" />
     <item target="raw/fingerprint_location_animation" value="@raw/fingerprint_location_animation" />
     <item target="raw/gesture_ambient_tap_screen" value="@raw/gesture_ambient_tap_screen" />
+    <item target="raw/assist_gesture_settings_animation_silence" value="@raw/assist_gesture_settings_animation_silence" />
+    <item target="raw/assist_gesture_settings_animation" value="@raw/assist_gesture_settings_animation" />
+    <item target="raw/auto_reverse_charging_bottom_sheet" value="@raw/auto_reverse_charging_bottom_sheet" />
+    <item target="raw/auto_reverse_charging" value="@raw/auto_reverse_charging" />
 </overlay>

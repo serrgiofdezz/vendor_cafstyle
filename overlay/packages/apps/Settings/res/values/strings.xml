@@ -149,4 +149,36 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
     <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <string name="setup_fingerprint_enroll_finish_message">Just touch the Pixel Imprint sensor to wake and unlock your phone.</string>
     <string name="suggested_fingerprint_lock_settings_summary">Use Pixel Imprint to unlock your phone</string>
+
+    <!-- Active Edge -->
+    <string name="assist_gesture_enrollment_continue_to_assistant">Continue to Assistant</string>
+    <string name="assist_gesture_enrollment_do_it_later">Do it later</string>
+    <string name="assist_gesture_enrollment_seekbar_light">Light squeeze</string>
+    <string name="assist_gesture_enrollment_seekbar_strong">Firm squeeze</string>
+    <string name="assist_gesture_enrollment_settings">Settings</string>
+    <string name="assist_gesture_setting_enable_assistant_text">To talk to your Assistant, quickly squeeze the bottom half of your phone, then release</string>
+    <string name="assist_gesture_setting_enable_assistant_title">Squeeze for your Assistant</string>
+    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">Squeeze to silence alarms, timers, notifications, and incoming calls</string>
+    <string name="assist_gesture_setting_enable_ring_silence_text">Squeeze to silence notifications and incoming calls</string>
+    <string name="assist_gesture_setting_enable_ring_silence_title">Squeeze to silence phone</string>
+    <string name="assist_gesture_setting_enable_wake_title">Open Assistant when screen is off</string>
+    <string name="assist_gesture_squeeze_help_maximum_sensitivity">Light squeeze</string>
+    <string name="assist_gesture_squeeze_help_minimum_sensitivity">Firm squeeze</string>
+    <string name="assist_gesture_squeeze_sensitivity_label">Squeeze sensitivity</string>
+    <string name="assist_gesture_training_enrolling_error_may_cause_falsing">May bring up Assistant accidentally</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_bottom">Squeeze the bottom half of your phone</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_faster">Squeeze faster</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_harder">Squeeze harder</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_release_quickly">Squeeze quickly and then release</string>
+    <string name="assist_gesture_training_enrolling_error_try_adjusting">Try adjusting the slider</string>
+    <string name="assist_gesture_training_enrolling_text">Squeeze the bottom half of your phone. You can adjust how strongly you need to squeeze.</string>
+    <string name="assist_gesture_training_enrolling_title">Squeeze quickly and release</string>
+    <string name="assist_gesture_training_finished_text">You can also change the squeeze sensitivity later in Settings</string>
+    <string name="assist_gesture_training_finished_title">Finish up or keep adjusting</string>
+    <string name="assist_gesture_training_intro_text">To talk to your Assistant at any time, quickly squeeze the bottom half of your phone, then release</string>
+    <string name="assist_gesture_training_intro_title">Squeeze for your Assistant</string>
+    <string name="assist_gesture_training_suggestion_summary">Talk to Assistant, silence calls</string>
+    <string name="assist_gesture_training_suggestion_summary_including_alarms">Talk to Assistant, silence alarms and calls</string>
+    <string name="assist_gesture_training_suggestion_title">Squeeze and release for Assistant</string>
+
 </resources>
