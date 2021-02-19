@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/cafstyle/audio/notifications/Tuneup.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tuneup.ogg \
     vendor/cafstyle/audio/notifications/Tweeter.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tweeter.ogg \
     vendor/cafstyle/audio/notifications/Twinkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Twinkle.ogg \
+    vendor/cafstyle/audio/notifications/w_eight_system.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/w_eight_system.ogg \
     vendor/cafstyle/audio/ringtones/Copycat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Copycat.ogg \
     vendor/cafstyle/audio/ringtones/Crackle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Crackle.ogg \
     vendor/cafstyle/audio/ringtones/Flutterby.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Flutterby.ogg \
@@ -87,5 +88,5 @@ PRODUCT_COPY_FILES += \
 # Change default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=The_big_adventure.ogg \
-    ro.config.notification_sound=Popcorn.ogg \
+    ro.config.notification_sound=w_eight_system.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
