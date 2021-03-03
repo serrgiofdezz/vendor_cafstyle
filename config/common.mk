@@ -79,6 +79,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.blurs_are_expensive=1
 endif
 
+# IORap app launch prefetching using Perfetto traces and madvise
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.iorapd.enable=true
+
 # Inherit from apex config
 $(call inherit-product, vendor/cafstyle/config/apex.mk)
 
