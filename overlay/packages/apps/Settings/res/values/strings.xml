@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2020, The BBJProjeK Team
+** Copyright 2020, The BBJProjeK Team.
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -34,7 +34,6 @@
     <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
     <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
     <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
-    <string name="config_styles_and_wallpaper_picker_class">com.android.customization.picker.CustomizationPickerActivity</string>
     <string name="oem_preferred_feedback_reporter">com.google.android.gms</string>
 
     <!-- Help URI -->

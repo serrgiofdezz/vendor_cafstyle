@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2020, The BBJProjeK Team
+** Copyright 2020, The BBJProjeK Team.
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,8 +17,14 @@
 */
 -->
 <resources>
+    <!-- Class name for the default apn service -->
+    <string name="apn_source_service">com.google.android.carrier/.ApnSourceService</string>
+
     <!-- Class name for the default main Dialer activity -->
     <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+
+    <!-- The package name for the platform carrier config app, bundled with system image. -->
+    <string name="platform_carrier_config_package">com.google.android.carrier</string>
 
     <!-- The package name for the platform number verification supplier app. -->
     <string name="platform_number_verification_package">com.google.android.gms</string>
