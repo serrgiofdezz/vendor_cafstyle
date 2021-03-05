@@ -20,9 +20,21 @@ PRODUCT_PACKAGES += \
     AccentColorHentaiOSOVerlay \
     AccentColorTealOverlay \
     AccentcolorStarbucksOverlay \
-
-# Icon Shapes
-PRODUCT_PACKAGES += \
+    IconPackKaiAndroidOverlay \
+    IconPackKaiLauncherOverlay \
+    IconPackKaiSettingsOverlay \
+    IconPackKaiSystemUIOverlay \
+    IconPackKaiThemePickerOverlay \
+    IconPackSamAndroidOverlay \
+    IconPackSamLauncherOverlay \
+    IconPackSamSettingsOverlay \
+    IconPackSamSystemUIOverlay \
+    IconPackSamThemePickerOverlay \
+    IconPackVictorAndroidOverlay \
+    IconPackVictorLauncherOverlay \
+    IconPackVictorSettingsOverlay \
+    IconPackVictorSystemUIOverlay \
+    IconPackVictorThemePickerOverlay \
     IconShapePebbleOverlay \
     IconShapeTaperedRectOverlay \
     IconShapeVesselOverlay
