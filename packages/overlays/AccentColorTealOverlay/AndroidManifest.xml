@@ -22,5 +22,5 @@
           android:versionName="1.0">
     <overlay android:targetPackage="android" android:category="android.theme.customization.accent_color" android:priority="1"/>
 
-    <application android:label="@string/accent_color_teal_overlay" android:hasCode="false"/>
+    <application android:label="AOSP Teal" android:hasCode="false"/>
 </manifest>

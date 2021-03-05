@@ -14,10 +14,12 @@
 # limitations under the License.
 #
 
-# Accents
+# Overlays
 PRODUCT_PACKAGES += \
+    AccentColorAppleBlueOverlay \
+    AccentColorHentaiOSOVerlay \
     AccentColorTealOverlay \
-    AccentColorH!OS
+    AccentcolorStarbucksOverlay \
 
 # Icon Shapes
 PRODUCT_PACKAGES += \

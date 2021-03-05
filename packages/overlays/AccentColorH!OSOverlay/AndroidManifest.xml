@@ -17,10 +17,10 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.android.theme.color.h!os"
+          package="com.android.theme.color.hentaios"
           android:versionCode="1"
           android:versionName="1.0">
     <overlay android:targetPackage="android" android:category="android.theme.customization.accent_color" android:priority="1"/>
 
-    <application android:label="@string/accent_color_h!os_overlay" android:hasCode="false"/>
+    <application android:label="HentaiOS" android:hasCode="false"/>
 </manifest>
