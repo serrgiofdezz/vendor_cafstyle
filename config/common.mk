@@ -1,38 +1,23 @@
+#
+# Copyright (C) 2020 The BBJProjeK Team
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
 
-PRODUCT_BRAND ?= BrainRepo
+PRODUCT_BRAND ?= ElementOS
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
-# Inherit from fonts config
-$(call inherit-product, vendor/cafstyle/config/fonts.mk)
-
-# Inherit from overlays config
-$(call inherit-product, vendor/cafstyle/config/overlay.mk)
-
-# Inherit from audio config
-$(call inherit-product, vendor/cafstyle/config/audio.mk)
-
-# Inherit from CarrrierSettings config
-$(call inherit-product, vendor/cafstyle/config/carriers.mk)
-
-# Inherit from apex config
-$(call inherit-product, vendor/cafstyle/config/apex.mk)
-
-# Inherit from branding config
-$(call inherit-product, vendor/cafstyle/config/versioning.mk)
-
-# Inherit from Google customization config
-$(call inherit-product, vendor/customization/config.mk)
-
-# Inherit from  Gapps config
-$(call inherit-product, vendor/gapps/config.mk)
-
-# Inherit from bootanimation config
-$(call inherit-product, vendor/cafstyle/bootanimation.mk)
-
 TARGET_MINIMAL_APPS ?= false
-
-# Files
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
 
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -48,6 +33,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # StorageManager configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.storage_manager.show_opt_in=false
+		ro.storage_manager.enabled=true
 
 # OPA configuration
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -78,31 +64,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.disable_rescue=true \
     ro.setupwizard.rotation_locked=true
 
-# ADB authentication
-ifeq ($(TARGET_BUILD_VARIANT),eng)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
-else
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
-endif
-
-# AOSP recovery flashing
-ifeq ($(TARGET_USES_AOSP_RECOVERY),true)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.sys.recovery_update=true
-endif
-
-# Enforce privapp-permissions whitelist
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=log
-
-# Power whitelist
-PRODUCT_COPY_FILES += \
-    vendor/cafstyle/config/permissions/custom-power-whitelist.xml:system/etc/sysconfig/custom-power-whitelist.xml
-
-# Storage manager
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.storage_manager.enabled=true
-
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
@@ -111,3 +72,30 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     NexusLauncherRelease
+
+# Inherit from fonts config
+$(call inherit-product, vendor/cafstyle/config/fonts.mk)
+
+# Inherit from overlays config
+$(call inherit-product, vendor/cafstyle/config/overlay.mk)
+
+# Inherit from audio config
+$(call inherit-product, vendor/cafstyle/config/audio.mk)
+
+# Inherit from CarrrierSettings config
+$(call inherit-product, vendor/cafstyle/config/carriers.mk)
+
+# Inherit from apex config
+$(call inherit-product, vendor/cafstyle/config/apex.mk)
+
+# Inherit from branding config
+$(call inherit-product, vendor/cafstyle/config/versioning.mk)
+
+# Inherit from Google customization config
+$(call inherit-product, vendor/customization/config.mk)
+
+# Inherit from  Gapps config
+$(call inherit-product, vendor/gapps/config.mk)
+
+# Inherit from bootanimation config
+$(call inherit-product, vendor/cafstyle/bootanimation.mk)
