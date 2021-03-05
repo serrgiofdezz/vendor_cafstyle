@@ -1,10 +1,22 @@
-# Versioning System
-CAF_BASE_VERSION = 4.3
-CAF_CODENAME := uranium
-BR_MAINTAINER ?= Unknown
+#
+# Copyright (C) 2020 The BBJProjeK Team
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
 
-# Set all versions
-CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+# Versioning System
+CUSTOM_VERSION = 5
+CUSTOM_CODENAME := Zinc
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
@@ -14,21 +26,12 @@ CUSTOM_DATE_MINUTE := $(shell date -u +%M)
 CUSTOM_BUILD_DATE_UTC := $(shell date -d '$(CUSTOM_DATE_YEAR)-$(CUSTOM_DATE_MONTH)-$(CUSTOM_DATE_DAY) $(CUSTOM_DATE_HOUR):$(CUSTOM_DATE_MINUTE) UTC' +%s)
 CUSTOM_BUILD_DATE := $(CUSTOM_DATE_YEAR)$(CUSTOM_DATE_MONTH)$(CUSTOM_DATE_DAY)-$(CUSTOM_DATE_HOUR)$(CUSTOM_DATE_MINUTE)
 
-TARGET_PRODUCT_SHORT := $(subst caf_,,$(CUSTOM_BUILD))
+TARGET_PRODUCT_SHORT := $(subst element_,,$(CUSTOM_BUILD))
 
-CAF_VERSION := $(CAF_CODENAME)-$(CAF_BASE_VERSION)-$(TARGET_PRODUCT_SHORT)-$(CUSTOM_BUILD_DATE)-$(CUSTOM_BUILD_TYPE)
-
-CUSTOM_VERSION := BrainRepo_$(CAF_CODENAME)_$(CAF_BASE_VERSION)_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)-$(CUSTOM_BUILD_TYPE)
+CUSTOM_VERSION := ElementOS_$(CUSTOM_VERSION)_$(CUSTOM_BUILD)-$(CUSTOM_VERSION_PROP)-$(CUSTOM_BUILD_DATE)
 CUSTOM_VERSION_PROP := 10
 CUSTOM_PLATFORM_VERSION := ten
 
 CUSTOM_PROPERTIES := \
-    org.brainrepo.version=$(CAF_VERSION) \
-    org.brainrepo.version.prop=$(CUSTOM_PLATFORM_VERSION) \
-    org.brainrepo.version.display=$(CUSTOM_VERSION) \
-    org.brainrepo.build_version=$(CAF_BASE_VERSION) \
-    org.brainrepo.build_date=$(CUSTOM_BUILD_DATE) \
-    org.brainrepo.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.brainrepo.build_type=$(CUSTOM_BUILD_TYPE) \
-    org.brainrepo.build_maintainer=$(BR_MAINTAINER) \
-    org.brainrepo.build_codename=$(CAF_CODENAME)
+    ro.build.version.custom=$(CUSTOM_VERSION) \
+    ro.build.version.codename=$(CUSTOM_CODENAME)
