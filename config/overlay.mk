@@ -37,4 +37,10 @@ PRODUCT_PACKAGES += \
     IconPackVictorThemePickerOverlay \
     IconShapePebbleOverlay \
     IconShapeTaperedRectOverlay \
-    IconShapeVesselOverlay
+    IconShapeVesselOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeEtruscanOverlay \
+    IconShapeHealthOverlay \
+    IconShapeSandClockOverlay \
+    IconShapeStarOverlay \
+    IconShapeToothOverlay
