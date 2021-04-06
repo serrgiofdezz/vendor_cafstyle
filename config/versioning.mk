@@ -15,7 +15,7 @@
 #
 
 # Versioning System
-CUSTOM_VERSION = 7.2
+CUSTOM_VERSION = 7.3
 CUSTOM_CODENAME := Arsenic
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
